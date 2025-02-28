@@ -1,0 +1,111 @@
+/* CropSelection.css */
+
+/* Make the container take full viewport height and set background styles */
+.crop-container {
+    display: flex;
+    flex-direction: column;  /* Arrange content vertically */
+    justify-content: center; /* Center the content vertically */
+    align-items: center;     /* Center the content horizontally */
+    text-align: center;      /* Center the text */
+    padding: 20px;
+    height: 100vh;           /* Full height of the screen */
+    background-size: cover;
+    background-position: center;
+    color: white;            /* Make text white for contrast */
+    font-family: 'Arial', sans-serif; /* Use a clean font */
+    transition: background-image 0.5s ease-in-out; /* Smooth transition for background */
+  }
+  
+  /* Apply different background colors for different crops */
+  .carrot {
+    background-image: url('../assets/carrot.jpg'); /* Ensure the path is correct */
+  }
+  
+  .banana {
+    background-image: url('../assets/banana.jpg');
+  }
+  
+  .corn {
+    background-image: url('../assets/corn.jpg');
+  }
+  
+  .turmeric {
+    background-image: url('../assets/tumeric.jpg');
+  }
+  
+  .beans {
+    background-image: url('../assets/beans.jpg');
+  }
+  .rice {
+    background-image: url('../assets/rice.jpg');
+  }
+  .wheat {
+    background-image: url('../assets/wheat.jpg');
+  }
+  
+  /* Additional styling for the elements inside */
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    margin-top: 15px;
+  }
+  
+  /* Style for the select dropdown */
+  select {
+    padding: 10px;
+    font-size: 1rem;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #258ec6;
+    background-color: rgba(28, 190, 199, 0.7);
+    color: #333;
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the date input */
+  input[type="date"] {
+    padding: 10px;
+    font-size: 1rem;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #a7410a;
+    background-color: rgba(33, 188, 82, 0.7);
+    color: #800808;
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the button */
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #257da3;  /* Green background */
+    color: rgb(20, 26, 21);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #3406eb;  /* Darker green on hover */
+  }
+  
+  /* Style for the watering reminder text */
+  div {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #148080; /* Yellowish color for reminder */
+  }
+  

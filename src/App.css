@@ -1,0 +1,152 @@
+/* App.css */
+
+/* Body and Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light background for the whole app */
+  }
+  
+  /* Main Container */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto; /* Centers the content */
+    padding: 20px;
+  }
+  
+  /* Styling for the login page */
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height */
+    background-image: url('./assets/agri.jpg'); /* Add login background image */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the background image */
+    text-align: center;
+  }
+  
+  .login-container h2 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .login-container form {
+    background-color: rgba(255, 255, 255, 0.7); /* Slight transparency */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login-container button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Styling for the Dashboard */
+  .dashboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #e9ecef;
+  }
+  
+  .dashboard-container h1 {
+    font-size: 2.5rem;
+    margin: 20px;
+    color: #333;
+  }
+  
+  /* Crop Selection Page Styles */
+  .crop-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .crop-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .crop-container select, .crop-container input {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 250px;
+  }
+  
+  .crop-container button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .crop-container button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Crop Reminder Page */
+  .crop-reminder-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .crop-reminder-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .crop-reminder-container p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  /* General Flexbox Layout for Alignment */
+  .center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .center-content h2 {
+    margin-top: 0;
+  }
+  

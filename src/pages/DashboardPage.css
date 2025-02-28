@@ -1,0 +1,35 @@
+/* CropSelection.css */
+.crop-container {
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  
+  .carrot {
+    background-image: url('../assets/carrot.jpg');
+  }
+  
+  .banana {
+    background-image: url('../assets/banana.jpg');
+  }
+  
+  .corn {
+    background-image: url('../assets/corn.jpg');
+  }
+  
+  .turmeric {
+    background-image: url('../assets/tumeric.jpg');
+  }
+  
+  .beans {
+    background-image: url('../assets/beans.jpg');
+  }
+  .rice {
+    background-image: url('../assets/rice.jpg');
+  }
+  .wheat {
+    background-image: url('../assets/wheat.jpg');
+  }
+  
